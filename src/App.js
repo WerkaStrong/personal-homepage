@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { Contact } from './common/Contact';
+import { Container } from './common/Container';
+import { About } from './common/Hero-about/index';
+import { Portfolio } from './common/Portfolio';
+import { Skills } from './common/Skills/index';
 
 function App() {
+  const skillsTitle = "My skillset includes";
+  const futureSkillsTitle = "What I want to learn next";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Container>
+        <About />
+        <Skills title={skillsTitle}/>
+        <Skills title={futureSkillsTitle}/>
+        <Portfolio />
+        <Contact />
+      </Container>
+    </>
   );
 }
 
