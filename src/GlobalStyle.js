@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         margin: 0 auto;
+        overflow-wrap: break-word;
         font-family: 'Inter', sans-serif;
         color: ${({theme}) => theme.color.mineShaft};
         background: ${({theme}) => theme.color.whiteLilac};
