@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-	background: ${({theme}) => theme.color.whiteLilac};
+	background: ${({theme}) => theme.webBackground};
 	width: calc(100% - 28px);
 	margin: 0 auto;
 	display: flex;

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const SkillsTile = styled.div`
-	background: ${({theme}) => theme.color.white};
+	background: ${({theme}) => theme.default};
     box-shadow: 0px 16px 58px 0px #090A3308;
     box-shadow: 0px -2px 50px 0px #090A3305;
     border-radius: 4px;
@@ -24,7 +24,7 @@ export const Title = styled.p`
 	}
 `
 export const List = styled.ul`
-	color: ${({theme}) => theme.color.slateGray};
+	color: ${({theme}) => theme.describe};
     
 	@media (min-width: 768px) {
 		display: grid;

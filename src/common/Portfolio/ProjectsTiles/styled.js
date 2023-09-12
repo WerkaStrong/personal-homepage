@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const ProjectTiles = styled.article`
-    background: ${({ theme }) => theme.color.white};
-    color: ${({ theme }) => theme.color.slateGray};
+    background: ${({ theme }) => theme.tileDefault};
+    color: ${({ theme }) => theme.describe};
     border: 6px solid #d1d5da4d;
     padding: 24px;
 
     &:hover {
-        border: 6px solid ${({ theme }) => theme.color.cornflowerBlue};
+        border: 6px solid ${({ theme }) => theme.borderHover};
     }
 
     @media (min-width: 768px) {
@@ -15,7 +15,7 @@ export const ProjectTiles = styled.article`
     }
 `;
 export const Title = styled.header`
-    color: ${({ theme }) => theme.color.scienceBlue};
+    color: ${({ theme }) => theme.tileTitle};
     font-size: 16px;
     font-weight: 700;
 
@@ -51,7 +51,7 @@ export const Text = styled.div`
     }
 `;
 export const Link = styled.div`
-    color: ${({ theme }) => theme.color.scienceBlue};
+    color: ${({ theme }) => theme.button};
 	margin-left: 8px;
     @media (min-width: 768px) {
        

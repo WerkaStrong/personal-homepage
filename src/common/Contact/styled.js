@@ -11,7 +11,7 @@ export const Content= styled.div`
 	}
 `
 export const Subtitle= styled.div`
-	color: ${({theme}) => theme.color.slateGray};
+	color: ${({theme}) => theme.textcolor};
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 700;
@@ -27,7 +27,7 @@ export const Title= styled.header`
 	margin: 8px 0 16px 0;
 
     &:hover {
-        color: ${({theme}) => theme.color.scienceBlue};
+        color: ${({theme}) => theme.button};
     }
 
 	@media (min-width: 768px) {
@@ -36,7 +36,7 @@ export const Title= styled.header`
 	}
 `
 export const Description= styled.article`
-	color: ${({theme}) => theme.color.slateGray};
+	color: ${({theme}) => theme.describe};
 	font-size: 14px;
 	font-weight: 400;
 	margin-bottom: 24px;

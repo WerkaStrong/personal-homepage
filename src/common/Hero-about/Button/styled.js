@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const HireButton = styled.button`
-    background: ${({ theme }) => theme.color.scienceBlue};
+    background: ${({ theme }) => theme.button};
     border: 1px solid #d1d5da4d;
     border-radius: 4px;
-    color: ${({ theme }) => theme.color.white};
+    color: ${({ theme }) => theme.textcolor};
     font-weight: 600px;
     font-size: 20.06px;
     display: flex;
