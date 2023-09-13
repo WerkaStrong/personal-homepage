@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
-import { Button, Text, ToggleMode } from "./styled";
+import { Bg, Button, Image, Text, Toggle, ToggleMode } from "./styled";
 import { toggle } from "../themeSlice";
+import sun from "../../common/image/Group.svg"
 
 export const DarkModeButton = () => {
     const dispatch = useDispatch();
@@ -9,7 +10,13 @@ export const DarkModeButton = () => {
     return (
         <ToggleMode>
             <Text>Dark mode {theme === "dark" ? "on" : "off"}</Text>
-            <Button onClick={() => dispatch(toggle())}>button</Button>
+            <Button onClick={() => dispatch(toggle())}>
+                <Bg>
+                    <Toggle>
+                        <Image src={sun} />
+                    </Toggle>
+                </Bg>
+            </Button>
         </ToggleMode>
     );
 };
