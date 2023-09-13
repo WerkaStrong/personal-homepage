@@ -24,9 +24,10 @@ export const PictureBox = styled.div`
     }
 `;
 export const Picture = styled.img`
-   
 	width: 132.67px;
     height: 132.67px;
+    clip-path: circle();
+    background:pink;
     @media (min-width: 768px) {
         width: 384px;
         height: 384px;
