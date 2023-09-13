@@ -8,6 +8,7 @@ export const theme = {
         silver: "#C4C4C4",
         slateGray: "#6E7E91",
         gray: "#363636B8",
+        mercury: "#E5E5E5",
         mineShaft: "#252525",
     },
 };
