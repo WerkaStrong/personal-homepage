@@ -4,7 +4,7 @@ export const HireButton = styled.button`
     background: ${({ theme }) => theme.button};
     border: 1px solid #d1d5da4d;
     border-radius: 4px;
-    color: ${({ theme }) => theme.textcolor};
+    color: ${({ theme }) => theme.color.white};
     font-weight: 600px;
     font-size: 20.06px;
     display: flex;
