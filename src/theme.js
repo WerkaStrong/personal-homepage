@@ -8,6 +8,7 @@ export const theme = {
         silver: "#C4C4C4",
         slateGray: "#6E7E91",
         gray: "#363636B8",
+        semiDark: "#363636B8",
         mercury: "#E5E5E5",
         mineShaft: "#252525",
     },
@@ -22,6 +23,7 @@ export const lightTheme = {
     borderHover: theme.color.cornflowerBlue,
     tileTitle: theme.color.scienceBlue,
     tileDefault: theme.color.white,
+    buttonBg: theme.color.mercury,
 };
 
 export const darkTheme = {
@@ -33,4 +35,5 @@ export const darkTheme = {
     borderHover: theme.color.scienceBlue,
     tileTitle: theme.color.white,
     tileDefault: theme.color.gray,
+    buttonBg: theme.color.semiDark,
 };

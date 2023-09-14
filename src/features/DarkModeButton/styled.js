@@ -1,14 +1,4 @@
 import styled from "styled-components";
-import { keyframes } from "styled-components";
-
-const roll = keyframes`
-from {
-    transform: translateX(0);
-}
-to {
-    transform: translateX(20px);
-}
-`;
 
 export const ToggleMode = styled.div`
     display: flex;
@@ -41,10 +31,10 @@ export const Button = styled.div`
     }
 `;
 export const Bg = styled.div`
-    background: #e5e5e5;
+    background: ${({ theme }) => theme.buttonBg};
     width: 47.06px;
     height: 25.07px;
-    border: 1px solid #6e7e91;
+    border: 1px solid ${({ theme }) => theme.describe};
     border-radius: 20px;
     display: flex;
 
@@ -52,15 +42,17 @@ export const Bg = styled.div`
     }
 `;
 export const Toggle = styled.div`
-    background: #6e7e91;
+    background: ${({ theme }) => theme.describe};
     clip-path: circle();
     width: 20px;
     height: 20px;
     align-self: center;
-    margin-left: 3px;
+    margin-left: ${(props) => (props.animate ? "23px" : "3px")};
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: margin-left 0.25s linear;
+   
     @media (min-width: 768px) {
     }
 `;
