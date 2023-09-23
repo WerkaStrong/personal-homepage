@@ -64,3 +64,13 @@ export const Icon = styled.img`
         height: 48px;
     }
 `;
+
+export const ImageHover = styled.img`
+    width: 32px;
+    height: 32px;
+
+    @media (min-width: 768px) {
+        width: 48px;
+        height: 48px;
+    }
+`;

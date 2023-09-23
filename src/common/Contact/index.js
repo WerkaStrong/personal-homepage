@@ -11,6 +11,7 @@ import LinkedInLogo from "../image/LinkedIN.svg";
 import LinkedInLogoWhite from "../image/LinkedINWhite.svg";
 import GitHubLogoWhite from "../image/GithubWhite.svg";
 import { useSelector } from "react-redux";
+import { ImageHover } from "../../utils/imageHover";
 
 export const Contact = () => {
     const theme = useSelector((state) => state.theme.value);
@@ -25,7 +26,7 @@ export const Contact = () => {
                 help to make your ideas come to life, feel free to conatct me
             </Description>
             <SocialFrame>
-                <Icon src={theme === "dark" ? GitHubLogoWhite : GitHubLogo} />
+                <ImageHover style={Icon}/>
                 <Icon
                     src={theme === "dark" ? LinkedInLogoWhite : LinkedInLogo}
                 />
