@@ -6,10 +6,8 @@ import {
     Subtitle,
     Title,
 } from "./styled";
-import GitHubLogo from "../image/Github_black.svg";
 import LinkedInLogo from "../image/LinkedIN.svg";
 import LinkedInLogoWhite from "../image/LinkedINWhite.svg";
-import GitHubLogoWhite from "../image/GithubWhite.svg";
 import { useSelector } from "react-redux";
 import { ImageHover } from "../../utils/imageHover";
 
@@ -19,7 +17,7 @@ export const Contact = () => {
     return (
         <Content>
             <Subtitle>Let's Talk!</Subtitle>
-            <Title>weronika.chmielewska00@gmail.com</Title>
+            <Title>weronika.chmielewska.it@gmail.com</Title>
             <Description>
                 I’m always open to new projects whenever I have the time. If you
                 have a website, dashboard or mobile app in mind and need some
