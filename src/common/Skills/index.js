@@ -1,33 +1,19 @@
-import { Divider, DotImage, Emoji, List, Skill, SkillsTile, Title } from "./styled"
+import { Divider, DotImage, List, Skill, SkillsTile, Title } from "./styled";
 import dot from "../image/Ellipse 31.svg";
-import tools from "../image/tools.svg";
 
-export const Skills = ({title}) => {
-
+export const Skills = ({ title, skills }) => {
     return (
         <SkillsTile>
-            <Title>{title} <Emoji src={tools} alt=""/></Title>
-            <Divider/>
+            <Title>{title}</Title>
+            <Divider />
             <List>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>
-                <Skill> <DotImage src={dot} alt="" />Semantic & accessible HTML</Skill>   
+                {skills?.map((skill) => (
+                    <Skill key={skill.id}>
+                        <DotImage src={dot} alt="dot" />
+                        {skill.skill}
+                    </Skill>
+                ))}
             </List>
         </SkillsTile>
-    )
-}
+    );
+};
