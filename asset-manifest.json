@@ -1,26 +1,24 @@
 {
   "files": {
     "main.css": "/personal-homepage/static/css/main.e6c13ad2.css",
-    "main.js": "/personal-homepage/static/js/main.a94d2076.js",
+    "main.js": "/personal-homepage/static/js/main.5e041a2d.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
-    "static/media/tools.svg": "/personal-homepage/static/media/tools.3de0a753ad13fa2c2ef4ec7b7fb50711.svg",
-    "static/media/Github_black.svg": "/personal-homepage/static/media/Github_black.682d4041acee0d6816b7cefdb3760bfd.svg",
-    "static/media/Github_on focus LM.svg": "/personal-homepage/static/media/Github_on focus LM.2036edf053946586d582fb157a4d33ac.svg",
-    "static/media/GithubWhite.svg": "/personal-homepage/static/media/GithubWhite.0a9a775135c2ec4f6dafc894800edaef.svg",
+    "static/media/linkedIn.jpg": "/personal-homepage/static/media/linkedIn.17e308b8c1c13f58b1c7.jpg",
     "static/media/Group_dark.svg": "/personal-homepage/static/media/Group_dark.4de03ecf77be4c4c2e315a5460525bd2.svg",
     "static/media/Group.svg": "/personal-homepage/static/media/Group.e3adea52b4e28ceb7b8dabc8fae26dc5.svg",
+    "static/media/Github.svg": "/personal-homepage/static/media/Github.9392dd0bec8d641849ca53f84d01a8e4.svg",
     "static/media/mark-github.svg": "/personal-homepage/static/media/mark-github.a9062bf9626a38e8866f20e84ee3d71b.svg",
     "index.html": "/personal-homepage/index.html",
-    "static/media/LinkedIN.svg": "/personal-homepage/static/media/LinkedIN.2c26b104242a1c77c13c1498fc1cd787.svg",
-    "static/media/LinkedINWhite.svg": "/personal-homepage/static/media/LinkedINWhite.6739f3690056bef01e62868c19d9b04a.svg",
+    "static/media/LinkedIN.svg": "/personal-homepage/static/media/LinkedIN.2aa8db40917032d80fae102250598b81.svg",
+    "static/media/Danger.svg": "/personal-homepage/static/media/Danger.ef993f6cd5abbabfd638edc269fe618e.svg",
     "static/media/Message.svg": "/personal-homepage/static/media/Message.bec00aedf0fc456f7c63ef572ad0f362.svg",
     "static/media/Ellipse 31.svg": "/personal-homepage/static/media/Ellipse 31.c28602c8be31d96b4a27bc3627dd6f6f.svg",
     "main.e6c13ad2.css.map": "/personal-homepage/static/css/main.e6c13ad2.css.map",
-    "main.a94d2076.js.map": "/personal-homepage/static/js/main.a94d2076.js.map",
+    "main.5e041a2d.js.map": "/personal-homepage/static/js/main.5e041a2d.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a94d2076.js"
+    "static/js/main.5e041a2d.js"
   ]
 }
