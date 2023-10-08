@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Content = styled.div`
@@ -15,46 +16,41 @@ export const Subtitle = styled.div`
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
+    margin-bottom: 12px;
 
     @media (min-width: 768px) {
         font-size: 12px;
+        margin-bottom: 24px;
     }
 `;
-export const Title = styled.header`
+export const Mail = styled(Link)`
+    color: ${({ theme }) => theme.textcolor};
+    text-decoration: none;
     font-size: 18px;
     font-weight: 900;
-    margin: 8px 0 16px 0;
 
     &:hover {
-        color: ${({ theme }) => theme.button};
+        color: ${({ theme }) => theme.linkHover};
     }
 
     @media (min-width: 768px) {
         font-size: 32px;
-        margin: 24px 0 24px 0;
     }
 `;
+
 export const Description = styled.article`
     color: ${({ theme }) => theme.describe};
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 24px;
+    margin: 12px 0 40px 0;
     line-height: 23.8px;
 
     @media (min-width: 768px) {
         font-size: 18px;
-        margin-bottom: 32px;
+        margin: 24px 0 56px 0;
     }
 `;
-export const SocialFrame = styled.div`
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(32px, 1fr));
-    gap: 16px;
-    @media (min-width: 768px) {
-        grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
-        gap: 24px;
-    }
-`;
+
 export const Icon = styled.img`
     width: 32px;
     height: 32px;
