@@ -1,34 +1,21 @@
-import {
-    Content,
-    Description,
-    Icon,
-    SocialFrame,
-    Subtitle,
-    Title,
-} from "./styled";
-import LinkedInLogo from "../image/LinkedIN.svg";
-import LinkedInLogoWhite from "../image/LinkedINWhite.svg";
-import { useSelector } from "react-redux";
-import { ImageHover } from "../../utils/imageHover";
+import { Content, Description, Mail, Subtitle } from "./styled";
+import LogoComponent from "./Icon";
 
 export const Contact = () => {
-    const theme = useSelector((state) => state.theme.value);
-
     return (
         <Content>
             <Subtitle>Let's Talk!</Subtitle>
-            <Title>weronika.chmielewska.it@gmail.com</Title>
+            <Mail to="mailto:weronika.chmielewska.it@gmail.com">
+                weronika.chmielewska.it@gmail.com
+            </Mail>
             <Description>
-                I’m always open to new projects whenever I have the time. If you
-                have a website, dashboard or mobile app in mind and need some
-                help to make your ideas come to life, feel free to conatct me
+                Aspiring frontend developer eager to gain experience and grow.
+                Ready to take on projects and learn together. Let's start this
+                journey and create something special! If you have a website,
+                dashboard or mobile app in mind and need some help to make your
+                ideas come to life, feel free to contact me 👌
             </Description>
-            <SocialFrame>
-                <ImageHover style={Icon}/>
-                <Icon
-                    src={theme === "dark" ? LinkedInLogoWhite : LinkedInLogo}
-                />
-            </SocialFrame>
+            <LogoComponent />
         </Content>
     );
 };
