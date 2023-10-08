@@ -1,12 +1,11 @@
-import { HireButton, RectangleImage } from "./styled";
-import rectangle from "../../image/Message.svg"
+import { StyledButton, RectangleImage } from "./styled";
+import rectangle from "../../image/Message.svg";
 
 export const Button = () => {
-
-	return (
-		<HireButton>
-			<RectangleImage src={rectangle} alt=""/>
-			Hire me
-		</HireButton>
-	)
-}
+    return (
+        <StyledButton to="mailto:weronika.chmielewska.it@gmail.com">
+            <RectangleImage src={rectangle} alt="" />
+            Hire me
+        </StyledButton>
+    );
+};

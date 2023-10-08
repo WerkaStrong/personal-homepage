@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const HireButton = styled.button`
+export const StyledButton = styled(Link)`
+    text-decoration: none;
     background: ${({ theme }) => theme.button};
-    border: 1px solid #D1D5DA4D;
+    border: 1px solid #d1d5da4d;
     border-radius: 4px;
     color: ${({ theme }) => theme.color.white};
     font-weight: 600px;
@@ -17,11 +19,12 @@ export const HireButton = styled.button`
         box-shadow: 2px 2px 0 #8cc2ff, -2px -2px 0 #8cc2ff, 2px -2px 0 #8cc2ff,
             -2px 2px 0 #8cc2ff;
     }
-
-    @media (min-width: 768px) {
-    }
 `;
 export const RectangleImage = styled.img`
+    width: 20px;
+    height: 20px;
     @media (min-width: 768px) {
+        width: 24px;
+        height: 24px;
     }
 `;
