@@ -25,6 +25,9 @@ export const lightTheme = {
     tileTitle: theme.color.scienceBlue,
     tileDefault: theme.color.white,
     buttonBg: theme.color.mercury,
+    iconHover: theme.color.scienceBlue,
+    iconActive: theme.color.dodgerBlue,
+    linkHover: theme.color.dodgerBlue,
 };
 
 export const darkTheme = {
@@ -38,4 +41,7 @@ export const darkTheme = {
     tileTitle: theme.color.white,
     tileDefault: theme.color.gray,
     buttonBg: theme.color.semiDark,
+    iconHover: theme.color.scienceBlue,
+    iconActive: theme.color.dodgerBlue,
+    linkHover: theme.color.scienceBlue,
 };
