@@ -1,5 +1,5 @@
 import { Heading, IconImage, SubTitle, Title } from "./styled";
-import github from "../../image/mark-github.svg"
+import github from "../../image/mark-github.svg";
 
 export const PortfolioHeading = () => {
     return (

@@ -1,17 +1,14 @@
 import { PortfolioHeading } from "./PortfolioHeading";
-import { ProjectsTiles } from "./ProjectsTiles";
-import { PortfolioGrid, StyledPortfolio } from "./styled";
+import { ProjectsTiles } from "./ProjectsTiles/index";
+import { PortfolioGrid } from "./styled";
 
 export const Portfolio = () => {
     return (
-        <StyledPortfolio>
+        <div>
             <PortfolioHeading />
             <PortfolioGrid>
                 <ProjectsTiles />
-                <ProjectsTiles />
-                <ProjectsTiles />
-                <ProjectsTiles />
             </PortfolioGrid>
-        </StyledPortfolio>
+        </div>
     );
 };

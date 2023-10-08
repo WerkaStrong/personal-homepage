@@ -7,9 +7,6 @@ export const ToggleMode = styled.div`
     height: 26px;
     position: absolute;
     top: 119px;
-
-    @media (min-width: 768px) {
-    }
 `;
 export const Text = styled.div`
     color: ${({ theme }) => theme.textcolor};
@@ -18,17 +15,11 @@ export const Text = styled.div`
     font-weight: 700;
     align-self: center;
     margin-right: 12px;
-
-    @media (min-width: 768px) {
-    }
 `;
 export const Button = styled.div`
     align-self: center;
     width: 48px;
     height: 26px;
-
-    @media (min-width: 768px) {
-    }
 `;
 export const Bg = styled.div`
     background: ${({ theme }) => theme.buttonBg};
@@ -37,27 +28,23 @@ export const Bg = styled.div`
     border: 1px solid ${({ theme }) => theme.describe};
     border-radius: 20px;
     display: flex;
-
-    @media (min-width: 768px) {
-    }
 `;
-export const Toggle = styled.div`
+export const Toggle = styled.div.withConfig({
+    shouldForwardProp: (prop) => prop !== "animate",
+})`
     background: ${({ theme }) => theme.describe};
     clip-path: circle();
     width: 20px;
     height: 20px;
     align-self: center;
-    margin-left: ${(props) => (props.animate ? "23px" : "3px")};
+    margin-left: ${(props) => (props.animate ? "22px" : "2px")};
     display: flex;
     justify-content: center;
     align-items: center;
     transition: margin-left 0.25s linear;
-   
-    @media (min-width: 768px) {
-    }
 `;
 
 export const Image = styled.img`
-    @media (min-width: 768px) {
-    }
+    width: 14px;
+    height: 14px;
 `;

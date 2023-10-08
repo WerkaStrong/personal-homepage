@@ -24,10 +24,10 @@ export const PictureBox = styled.div`
     }
 `;
 export const Picture = styled.img`
-	width: 132.67px;
+    width: 132.67px;
     height: 132.67px;
     clip-path: circle();
-    background:pink;
+    object-fit: cover;
     @media (min-width: 768px) {
         width: 384px;
         height: 384px;
@@ -37,18 +37,12 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    @media (min-width: 768px) {
-    }
 `;
 export const Subtitle = styled.div`
     color: ${({ theme }) => theme.describe};
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
-
-    @media (min-width: 768px) {
-    }
 `;
 export const Title = styled.header`
     font-size: 22px;

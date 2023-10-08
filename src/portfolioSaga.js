@@ -2,11 +2,8 @@ import { fetchRepos, setRepos, setStatus } from "./portfolioSlice";
 import { call, put, takeEvery, delay } from "redux-saga/effects";
 import { getRepos } from "./getRepos";
 
-function* fetchProjectsHandler(action) {
-    
-    
-    console.log('Saga has started. Action type:', action.type);
-    try{
+function* fetchProjectsHandler() {
+    try {
         yield delay(1500);
         const repos = yield call(getRepos, "WerkaStrong");
         yield put(setStatus("success"));

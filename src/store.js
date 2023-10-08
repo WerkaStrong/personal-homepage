@@ -14,7 +14,6 @@ const store = configureStore({
     middleware: [sagaMiddleware],
 });
 
-console.log('Running portfolioSaga');
 sagaMiddleware.run(portfolioSaga);
 
 export default store;

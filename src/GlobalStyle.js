@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0 auto;
         overflow-wrap: break-word;
         font-family: 'Inter', sans-serif;
-        color: ${({theme}) => theme.textcolor};
-        background: ${({theme}) => theme.webBackground};
+        color: ${({ theme }) => theme.textcolor};
+        background: ${({ theme }) => theme.webBackground};
     }
 `;

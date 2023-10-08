@@ -4,9 +4,6 @@ export const Heading = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    @media (min-width: 768px) {
-    }
 `;
 export const IconImage = styled.img`
     width: 32px;
@@ -37,4 +34,3 @@ export const SubTitle = styled.div`
         margin: 18px 0 24px 0;
     }
 `;
-
