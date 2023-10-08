@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+export const PortfolioGrid = styled.div`
+    display: grid;
+    grid-gap: 16px;
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(auto-fit, minmax(592px, 1fr));
+        grid-gap: 32px;
+    }
+`;
+
 export const ProjectTiles = styled.article`
     background: ${({ theme }) => theme.tileDefault};
     color: ${({ theme }) => theme.describe};
@@ -51,10 +61,10 @@ export const Text = styled.div`
         font-size: 18px;
     }
 `;
-export const Link = styled.div`
+export const StyledLink = styled.a`
     color: ${({ theme }) => theme.button};
     margin-left: 8px;
-
+    text-decoration: none;
     &:hover {
         color: ${({ theme }) => theme.linkHover};
     }
