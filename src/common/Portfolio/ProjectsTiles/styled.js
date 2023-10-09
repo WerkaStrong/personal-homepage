@@ -1,18 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectTiles = styled.article`
-    background: ${({ theme }) => theme.tileDefault};
-    color: ${({ theme }) => theme.describe};
-    border: 6px solid #d1d5da4d;
-    padding: 24px;
-
-    &:hover {
-        border: 6px solid ${({ theme }) => theme.borderHover};
-    }
-
-    @media (min-width: 768px) {
-        padding: 56px;
-    }
+   
 `;
 export const Title = styled.header`
     color: ${({ theme }) => theme.tileTitle};

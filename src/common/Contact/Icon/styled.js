@@ -15,22 +15,36 @@ export const Icons = styled.div`
 
 export const StyledLinkedInLogo = styled(LinkedInLogo)`
     fill: ${({ theme }) => theme.textcolor};
+    width: 32px;
+    height: 32px;
 
     &:hover {
         fill: ${({ theme }) => theme.iconHover};
     }
     &:active {
         fill: ${({ theme }) => theme.iconActive};
+    }
+
+    @media (min-width: 768px) {
+        width: 48px;
+        height: 48px;
     }
 `;
 
 export const StyledGithubLogo = styled(GitHubLogo)`
     fill: ${({ theme }) => theme.textcolor};
+    width: 32px;
+    height: 32px;
 
     &:hover {
         fill: ${({ theme }) => theme.iconHover};
     }
     &:active {
         fill: ${({ theme }) => theme.iconActive};
+    }
+    
+    @media (min-width: 768px) {
+        width: 48px;
+        height: 48px;
     }
 `;

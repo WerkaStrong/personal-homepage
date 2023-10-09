@@ -6,7 +6,11 @@ export const ToggleMode = styled.div`
     justify-content: flex-start;
     height: 26px;
     position: absolute;
-    top: 119px;
+    top: 21px;
+
+    @media (min-width: 768px) {
+        top: 119px;
+    }
 `;
 export const Text = styled.div`
     color: ${({ theme }) => theme.textcolor};
@@ -15,6 +19,11 @@ export const Text = styled.div`
     font-weight: 700;
     align-self: center;
     margin-right: 12px;
+    display: none;
+
+    @media (min-width: 820px) {
+        display: inline;
+    }
 `;
 export const Button = styled.div`
     align-self: center;

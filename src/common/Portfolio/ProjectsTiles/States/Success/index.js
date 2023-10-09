@@ -19,18 +19,15 @@ export const Success = () => {
                     <Title>{repo.name}</Title>
                     <Description>{repo.description}</Description>
                     <Links>
-                        <Text>
-                            Demo:
-                            <StyledLink href={repo.homepage}>
-                                {repo.homepage || "No home page"}
-                            </StyledLink>
-                        </Text>
-                        <Text>
-                            Code:
-                            <StyledLink href={repo.html_url}>
-                                {repo.html_url}
-                            </StyledLink>
-                        </Text>
+                        <Text>Demo:</Text>
+                        <StyledLink href={repo.homepage}>
+                            {repo.homepage || "No home page"}
+                        </StyledLink>
+
+                        <Text>Code:</Text>
+                        <StyledLink href={repo.html_url}>
+                            {repo.html_url}
+                        </StyledLink>
                     </Links>
                 </ProjectTiles>
             ))}

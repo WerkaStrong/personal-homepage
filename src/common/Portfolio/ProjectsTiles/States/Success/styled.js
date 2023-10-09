@@ -15,6 +15,7 @@ export const ProjectTiles = styled.article`
     color: ${({ theme }) => theme.describe};
     border: 6px solid #d1d5da4d;
     padding: 24px;
+    min-width: 100%;
 
     &:hover {
         border: 6px solid ${({ theme }) => theme.borderHover};
@@ -45,11 +46,14 @@ export const Description = styled.article`
 
 export const Links = styled.div`
     display: grid;
+    grid-template-columns: 47px 1fr;
     grid-gap: 8px;
     margin-top: 16px;
+    font-size: 14px;
 
     @media (min-width: 768px) {
         margin-top: 24px;
+        grid-template-columns: 60px 1fr;
     }
 `;
 
@@ -65,6 +69,9 @@ export const StyledLink = styled.a`
     color: ${({ theme }) => theme.button};
     margin-left: 8px;
     text-decoration: none;
+    min-width: 100%;
+    word-break: break-all;
+
     &:hover {
         color: ${({ theme }) => theme.linkHover};
     }

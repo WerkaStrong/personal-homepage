@@ -24,6 +24,7 @@ export const Title = styled.p`
 `;
 export const List = styled.ul`
     color: ${({ theme }) => theme.describe};
+    padding-left: 16px;
 
     @media (min-width: 768px) {
         display: grid;
@@ -38,16 +39,18 @@ export const Skill = styled.li`
     display: flex;
     align-items: center;
     line-height: 16.94px;
+    margin-bottom: 8px;
 
     @media (min-width: 768px) {
         font-size: 18px;
         line-height: 25.2px;
-        margin-bottom: 8px;
+        margin-bottom: 16px;
     }
 `;
 export const DotImage = styled.img`
     width: 6px;
     height: 6px;
+    margin-right: 8px;
 
     @media (min-width: 768px) {
         margin-right: 16px;
