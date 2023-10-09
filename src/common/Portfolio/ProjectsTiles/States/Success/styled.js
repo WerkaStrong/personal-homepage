@@ -52,6 +52,7 @@ export const Links = styled.div`
     font-size: 14px;
 
     @media (min-width: 768px) {
+        font-size: 18px;
         margin-top: 24px;
         grid-template-columns: 60px 1fr;
     }
@@ -67,7 +68,6 @@ export const Text = styled.div`
 `;
 export const StyledLink = styled.a`
     color: ${({ theme }) => theme.button};
-    margin-left: 8px;
     text-decoration: none;
     min-width: 100%;
     word-break: break-all;
