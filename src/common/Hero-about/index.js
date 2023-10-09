@@ -21,8 +21,7 @@ export const About = () => {
                 <Title>Weronika Chmielewska</Title>
                 <Description>
                     👩‍💻 I'm a passionate front-end developer, deeply fascinated by
-                    React and committed to creating captivating user
-                    experiences. I am actively seeking new and exciting job
+                    React. I am actively seeking new and exciting job
                     opportunities to continue my web development journey.
                 </Description>
                 <Button />
