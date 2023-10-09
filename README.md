@@ -17,9 +17,6 @@ Welcome to my portfolio website, where you can find information about me, my ski
 - Axios
 - Gh-pages
 
-## Features
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
