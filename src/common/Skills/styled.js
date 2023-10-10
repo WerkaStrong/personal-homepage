@@ -29,7 +29,8 @@ export const List = styled.ul`
     @media (min-width: 768px) {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding-bottom: 5px;
+        padding: 32px;
+        margin: 0 0 -16px 0;
     }
 `;
 export const Skill = styled.li`
@@ -66,5 +67,6 @@ export const Divider = styled.hr`
 
     @media (min-width: 768px) {
         max-width: 1151px;
+        margin: 0 32px 0 32px;
     }
 `;
