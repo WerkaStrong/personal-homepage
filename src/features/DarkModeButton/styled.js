@@ -13,7 +13,7 @@ export const ToggleMode = styled.div`
     }
 `;
 export const Text = styled.div`
-    color: ${({ theme }) => theme.textcolor};
+    color: ${({ theme }) => theme.describe};
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
@@ -32,8 +32,8 @@ export const Button = styled.div`
 `;
 export const Bg = styled.div`
     background: ${({ theme }) => theme.buttonBg};
-    width: 47.06px;
-    height: 25.07px;
+    width: 48px;
+    height: 26px;
     border: 1px solid ${({ theme }) => theme.describe};
     border-radius: 20px;
     display: flex;
@@ -46,7 +46,7 @@ export const Toggle = styled.div.withConfig({
     width: 20px;
     height: 20px;
     align-self: center;
-    margin-left: ${(props) => (props.animate ? "22px" : "2px")};
+    margin-left: ${(props) => (props.animate ? "24px" : "2px")};
     display: flex;
     justify-content: center;
     align-items: center;
