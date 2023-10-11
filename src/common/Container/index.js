@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     background: ${({ theme }) => theme.webBackground};
+    transition: background-color 0.25s ease, color 0.25s ease;
     width: calc(100% - 28px);
     margin: 0 auto;
     display: flex;

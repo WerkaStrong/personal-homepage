@@ -7,6 +7,7 @@ export const StyledButton = styled(Link)`
     border: 1px solid #d1d5da4d;
     border-radius: 4px;
     color: ${({ theme }) => theme.color.white};
+    transition: box-shadow 0.25s ease, color 0.25s ease;
     display: flex;
     align-items: center;
     padding: 12px 16px;
@@ -16,7 +17,7 @@ export const StyledButton = styled(Link)`
 
     &:hover {
         box-shadow: 2px 2px 0 #8cc2ff, -2px -2px 0 #8cc2ff, 2px -2px 0 #8cc2ff,
-            -2px 2px 0 #8cc2ff;
+            -2px 2px 0 #8cc2ff;  
     }
 `;
 export const RectangleImage = styled.img`

@@ -15,6 +15,7 @@ export const Icons = styled.div`
 
 export const StyledLinkedInLogo = styled(LinkedInLogo)`
     fill: ${({ theme }) => theme.textcolor};
+    transition: fill 0.25s ease, color 0.25s ease;
     width: 32px;
     height: 32px;
 
@@ -33,6 +34,7 @@ export const StyledLinkedInLogo = styled(LinkedInLogo)`
 
 export const StyledGithubLogo = styled(GitHubLogo)`
     fill: ${({ theme }) => theme.textcolor};
+    transition: fill 0.25s ease, color 0.25s ease;
     width: 32px;
     height: 32px;
 

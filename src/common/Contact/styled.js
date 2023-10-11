@@ -25,6 +25,7 @@ export const Subtitle = styled.div`
 `;
 export const Mail = styled(Link)`
     color: ${({ theme }) => theme.textcolor};
+    transition: color 0.25s ease, color 0.25s ease;
     text-decoration: none;
     font-size: 18px;
     font-weight: 900;
@@ -48,25 +49,5 @@ export const Description = styled.article`
     @media (min-width: 768px) {
         font-size: 18px;
         margin: 24px 0 56px 0;
-    }
-`;
-
-export const Icon = styled.img`
-    width: 32px;
-    height: 32px;
-
-    @media (min-width: 768px) {
-        width: 48px;
-        height: 48px;
-    }
-`;
-
-export const ImageHover = styled.img`
-    width: 32px;
-    height: 32px;
-
-    @media (min-width: 768px) {
-        width: 48px;
-        height: 48px;
     }
 `;

@@ -13,12 +13,14 @@ export const PortfolioGrid = styled.div`
 export const ProjectTiles = styled.article`
     background: ${({ theme }) => theme.tileDefault};
     color: ${({ theme }) => theme.describe};
+    transition: border 0.25s ease, color 0.25s ease, transform 0.25s ease;
     border: 6px solid #d1d5da4d;
     padding: 24px;
     min-width: 100%;
 
     &:hover {
         border: 6px solid ${({ theme }) => theme.borderHover};
+        transform: scale(1.02);
     }
 
     @media (min-width: 768px) {
@@ -68,6 +70,7 @@ export const Text = styled.div`
 `;
 export const StyledLink = styled.a`
     color: ${({ theme }) => theme.button};
+    transition: color 0.25s ease, color 0.25s ease;
     text-decoration: none;
     min-width: 100%;
     word-break: break-all;

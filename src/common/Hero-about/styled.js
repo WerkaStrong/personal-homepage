@@ -13,6 +13,7 @@ export const Tile = styled.div`
 `;
 export const PictureBox = styled.div`
     background: ${({ theme }) => theme.webBackground};
+    transition: background-color 0.25s ease, color 0.25s ease;
     width: 132.67px;
     height: 132.67px;
     margin-bottom: 16px;
