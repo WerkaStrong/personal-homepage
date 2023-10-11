@@ -3,7 +3,7 @@
 Welcome to my portfolio website, where you can find information about me, my skills, and ways to get in touch 👌
 
 ## Demo
-(https://werkastrong.github.io/personal-homepage/)
+[DEMO](https://werkastrong.github.io/personal-homepage/)
 
 ![homepage_animation](https://github.com/WerkaStrong/personal-homepage/assets/98229283/e0b1fea1-c23c-4f19-b90f-0413e7044c5e)
 
