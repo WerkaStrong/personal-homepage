@@ -7,7 +7,7 @@ const LogoComponent = () => {
             <Link to="https://github.com/WerkaStrong">
                 <StyledGithubLogo />
             </Link>
-            <Link to="https://www.linkedin.com/in/weronika-chmielewska-8a371b1b7/">
+            <Link to="https://www.linkedin.com/in/weronika-chmielewska-it/">
                 <StyledLinkedInLogo />
             </Link>
         </Icons>
