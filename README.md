@@ -5,7 +5,7 @@ Welcome to my portfolio website, where you can find information about me, my ski
 ## Demo
 [DEMO](https://werkastrong.github.io/personal-homepage/)
 
-![homepage_animation](https://github.com/WerkaStrong/personal-homepage/assets/98229283/e0b1fea1-c23c-4f19-b90f-0413e7044c5e)
+![homepage_animation](https://github.com/WerkaStrong/personal-homepage/assets/98229283/7bd95aec-3a38-4d19-8767-b30059f8f597)
 
 ## Technologies and Libraries Used
 - React.js
