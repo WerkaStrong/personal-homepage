@@ -1,15 +1,15 @@
 import { useSelector } from "react-redux";
 import { lightTheme, darkTheme } from "./theme";
-import { Container } from "./common/Container";
-import { About } from "./common/Hero-about/index";
-import { Portfolio } from "./common/Portfolio";
-import { Skills } from "./common/Skills/index";
-import { DarkModeButton } from "./features/DarkModeButton";
-import { Contact } from "./common/Contact";
+import { About } from "./app/Hero-about/index";
+import { Portfolio } from "./app/Portfolio";
+import { Skills } from "./app/Skills/index";
+import { DarkModeButton } from "../src/app/DarkModeButton";
+import { Contact } from "./app/Contact";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
 import { skills } from "./utils/skills";
 import { wantToLern } from "./utils/wantToLern";
+import { Container } from "./app/Container";
 
 
 function App() {

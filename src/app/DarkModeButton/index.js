@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Bg, Button, Image, Text, Toggle, ToggleMode } from "./styled";
 import { toggle } from "../themeSlice";
-import sun from "../../common/image/Group.svg";
-import blackSun from "../../common/image/Group_dark.svg";
+import sun from "../../app/image/Group.svg";
+import blackSun from "../../app/image/Group_dark.svg";
 import { useState } from "react";
 
 export const DarkModeButton = () => {
