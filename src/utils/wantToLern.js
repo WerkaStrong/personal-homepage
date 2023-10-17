@@ -5,4 +5,5 @@ export const wantToLern = [
     { id: "4", skill: "SASS" },
     { id: "5", skill: "JS classes" },
     { id: "6", skill: "Unit testing" },
+    { id: "7", skill: "Vue.js" },
 ];
