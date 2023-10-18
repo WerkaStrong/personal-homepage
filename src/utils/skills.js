@@ -19,7 +19,7 @@ export const skills = [
     { id: "18", skill: "GitHub Pull Requests & Review" },
     { id: "19", skill: "Trello" },
     { id: "20", skill: "Scrum" },
-    { id: "21", skill: "NPM" },
+    { id: "21", skill: "npm" },
     { id: "22", skill: "GitHub" },
     { id: "23", skill: "Git" },
     { id: "24", skill: "Markdown" },
