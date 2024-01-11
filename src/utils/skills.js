@@ -25,4 +25,5 @@ export const skills = [
     { id: '23', skill: 'Git' },
     { id: '24', skill: 'Markdown' },
     { id: '25', skill: 'Figma' },
+    { id: '26', skill: 'Trello' },
 ];
